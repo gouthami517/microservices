@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MessageResource {
 	
-	@Value("${message: Default Hello")
+	@Value("${message: Default Hello}")
 	private String message;
 	
 	@GetMapping("/message")
